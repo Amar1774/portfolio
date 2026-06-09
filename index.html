@@ -157,14 +157,12 @@
                 gap: 12px;
             }
 
-            .nav-logo-image {
-                height: 70px;
-                width: 70px;
-                border-radius: 50%;
-                object-fit: cover;
-                  margin-top: -16px;
-    margin-bottom: -16px;
-            }
+        .nav-logo-image {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
             .nav-menu {
                 display: flex;
@@ -243,9 +241,9 @@
             }
 
             .hero-image {
-                width: 320px;
+                width: 350px;
                 height: 350px;
-                border-radius: 35%;
+                border-radius: 90%;
                 object-fit: cover;
                 border: 5px solid var(--color-primary);
                 box-shadow: 0 0 40px var(--color-shadow);
@@ -1155,7 +1153,7 @@
                     </div>
                 </div>
                 <div class="hero-image-container">
-                    <img src="assets/profile.jpeg" alt="Amarendar Rayakala" class="hero-image">
+                    <img src="assets/profile.png" alt="Amarendar Rayakala" class="hero-image">
                 </div>
             </div>
         </section>
@@ -1379,7 +1377,7 @@
                 const subject = document.getElementById('subject').value;
                 const message = document.getElementById('message').value;
                 
-                const mailtoLink = `mailto:vadlaabhilashchary3333@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+                const mailtoLink = `mailto:rayakalaamarendar@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
                 
                 window.location.href = mailtoLink;
             });
